@@ -1,0 +1,31 @@
+{
+	"$schema": "https://biomejs.dev/schemas/1.8.3/schema.json",
+	"organizeImports": {
+		"enabled": true
+	},
+	"files": {
+        "ignore": ["package.json", "package-lock.json"]
+    },
+	"formatter": {
+		"enabled": true,
+		"indentStyle": "space",
+		"formatWithErrors": false
+	},
+	"javascript": {
+		"formatter": {
+			"quoteStyle": "single",
+			"indentStyle": "space"
+		}
+	},
+	"json": {
+		"formatter": {
+			"indentStyle": "space"
+		}
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": true
+		}
+	}
+}
